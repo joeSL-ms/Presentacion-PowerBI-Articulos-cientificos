@@ -1,4 +1,5 @@
 # Visual
+
 <h1 align="center">Articulos cientificos</h1>
 
 <div align="center"> 
@@ -8,14 +9,13 @@
 <a>En este proyecto hare una breve presentacion sobre la obtencion de articulos cientificos, como la variedad que podemos encontrar. Para dar comienzo he usado datos en base de neurociencia y que tienen relacion con la psicologia.
  Mi objetivo es acelerar la busqueda para aquellos estudiantes que necesiten articulos determinados. En este caso he usado el ejemplo de Right 'Temporoparietal Junction'</a>
 </div>
-
-<h2>Obtencion de datos</h2>
+<details>
 <div>
+<summary><h2>Obtencion de datos</h2></summary>
 <ul>
   <li>Creacion de un sistema de web scraping para poder obtener toda la informaion de manera eficiente y veloz
   </li>
   <li>Orden y limpieza de los datos, asi como completar la informacion, y otorgar mayor visibilidad de los documentos. </li>
-  <li>Uso de base de datos en sql, para almacenar la informacion obtenida. </li>
 </ul>
   <a>Creacion de la tabla con los datos a trabajar</a>
   
@@ -27,17 +27,28 @@
 <a>Adiccion de informacion adicional, que es relevante.</a>
   
   ![image](https://github.com/joeSL-ms/Visual/assets/127346073/e1279559-fc1f-4ebd-8fe0-fc7b8dccc4d0)
+  
+  <a>Termino de limpiar los datos</a>
+  
+  ![image](https://github.com/joeSL-ms/Visual/assets/127346073/5d4b2185-ef9f-44b2-8d7e-aa5df188c4dd)
   <a>Por ultimo creo un ID para poder pasarlo a mi base de datos</a>
   
-  ![image](https://github.com/joeSL-ms/Visual/assets/127346073/b3fd399a-effa-4997-aa41-8f96b595cc02)
-
-  <a>Dejo mi tabla de informacion creada en mi database</a>
+  ![image](https://github.com/joeSL-ms/Visual/assets/127346073/172a8786-787f-4005-b9cf-db4e8775b1fb)
   
-  ![image](https://github.com/joeSL-ms/Visual/assets/127346073/64886b9d-3dc7-42eb-9d15-f303a7b5a6c1)
-  <a>Desarrollo una consulta para confirmar que mis datos se encuentran disponibles</a>
-  
-  ![image](https://github.com/joeSL-ms/Visual/assets/127346073/8375bb73-de8a-4db9-b9a4-697bb4132d21)
+  ![image](https://github.com/joeSL-ms/Visual/assets/127346073/ea2bfd4b-ef6b-488f-bd41-73ea6c9686c2)
 
 </div>
-
+</details>
+<div>
 <h2>Desarrollo visual usando PoerBI</h2>
+<a>Mi objetivo es poder mostrar al publico, los articulos disponibles que han salido desde 1999, para poder ver la regularidad sobre los estudios, que se han llevado a cabo.</a>
+  <ul>
+  <li>Accesibilidad para el filtrado de informacion y la interaccion para acceder a los articulos deseados</lis>
+  <li>Visualizacion del contenido con sus respectivos valores, para mejor desempeño</li>
+  <li>El estudio sobre la frecuencia de articulos realizados, asi como los mas voluminosos</li>
+  <li>Cantidad de autores que se han dedicado a la publicacion de articulos y el crecimiento o decrecimiento que ha ocurrido durante estas decadas</li>
+  </ul>
+  
+  ![image](https://github.com/joeSL-ms/Visual/assets/127346073/c0b709ae-82e3-4044-84be-cf4b27e5d283)
+
+</div>
