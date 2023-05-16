@@ -10,6 +10,7 @@ import warnings
 warnings.filterwarnings('ignore')
 import requests as req
 from bs4 import BeautifulSoup as bs
+import asyncio
 PATH = ChromeDriverManager().install()
 
 class google:
@@ -48,6 +49,12 @@ class google_academy:
         self.options.headless=False
         self.driver=webdriver.Chrome(PATH, options=self.options)
         self.url='https://scholar.google.es/scholar?hl=es&as_sdt=0%2C5&as_vis=1&q='
+
+    def asincrono(funcion):
+        def eventos(*args, **kwargs):
+            return asyncio.get_event_loop().run_in_executor(None, funcion, *args, **kwargs)
+        return eventos
+    
     def buscar(self):
         self.busqueda = input()
         self.driver.get(self.url+self.busqueda)
@@ -56,12 +63,13 @@ class google_academy:
             self.driver.find_element(By.CSS_SELECTOR, '#W0wltc > div').click()
         except:
             pass
+    @asincrono
     def diccionario(self):
         time.sleep(3)
         dic_1={}
         ls_1=[]
         pg=1
-        while pg<=100:
+        while pg<=42:
             try:
                 time.sleep(3)
                 ruta = 'div.gs_ri'
@@ -77,6 +85,7 @@ class google_academy:
                     return dic_1
             continue
         return dic_1
+    @asincrono
     def info(self,listas):
         autores=[]
         descripcion=[]
@@ -94,7 +103,8 @@ class google_academy:
                 descripcion.append('NaN')
                 año.append('NaN')
             continue
-        self.dic_2={'aurotes':autores,'descripcion':descripcion,'año':año}
+        self.dic_2={'autores':autores,'descripcion':descripcion,'año':año}
         return self.dic_2
+
     def cerrar(self):
         self.driver.quit()
