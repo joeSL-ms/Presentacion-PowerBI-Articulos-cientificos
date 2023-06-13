@@ -49,6 +49,10 @@
   <li>Cantidad de autores que se han dedicado a la publicacion de articulos y el crecimiento o decrecimiento que ha ocurrido durante estas decadas</li>
   </ul>
   
-  ![image](https://github.com/joeSL-ms/Visual/assets/127346073/c0b709ae-82e3-4044-84be-cf4b27e5d283)
+  | Modelado interactivo |
+  |-------------------------------|
+  |![image](https://github.com/joeSL-ms/Visual/assets/127346073/92c9a7ee-bf1a-4985-b894-62b4b3ffc372)|
+  |![image](https://github.com/joeSL-ms/Visual/assets/127346073/df7138a3-6e9e-4ecc-a970-6d22716f4b01)|
+
 
 </div>
