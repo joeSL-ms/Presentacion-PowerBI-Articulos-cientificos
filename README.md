@@ -40,7 +40,7 @@
 </div>
 </details>
 <div>
-<h2>Desarrollo visual usando PoerBI</h2>
+<h2>Desarrollo visual usando PowerBI</h2>
 <a>Mi objetivo es poder mostrar al publico, los articulos disponibles que han salido desde 1999, para poder ver la regularidad sobre los estudios, que se han llevado a cabo.</a>
   <ul>
   <li>Accesibilidad para el filtrado de informacion y la interaccion para acceder a los articulos deseados</lis>
